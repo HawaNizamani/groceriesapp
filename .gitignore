@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore everything
+*
+
+# But not these files/folders
+!.gitignore
+!pubspec.yaml
+!pubspec.lock
+!README.md
+!analysis_options.yaml
+!lib/**
+!assets/**
