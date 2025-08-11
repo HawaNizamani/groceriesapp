@@ -47,11 +47,17 @@ app.*.map.json
 # Ignore everything
 *
 
-# But not these files/folders
+# Un-ignore the folders themselves
+!lib/
+!assets/
+
+# Then un-ignore all files inside these folders
+!lib/**
+!assets/**
+
+# And un-ignore these specific files
 !.gitignore
 !pubspec.yaml
 !pubspec.lock
 !README.md
 !analysis_options.yaml
-!lib/**
-!assets/**
